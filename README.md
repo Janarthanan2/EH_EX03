@@ -1,4 +1,4 @@
-# Enumeration
+# Ex03-Enumeration
 Enumeration Techniques
 
 # Explore Google hacking and enumeration 
@@ -33,33 +33,43 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+![WhatsApp Image 2025-04-26 at 08 32 33_2a71f1fd](https://github.com/user-attachments/assets/8aa569ab-f3eb-4afa-8eb4-a70e72176060)
+
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![WhatsApp Image 2025-04-26 at 08 32 23_fa006d91](https://github.com/user-attachments/assets/f1af0fb8-3b01-4d5f-913b-62b9b45f65a2)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![WhatsApp Image 2025-04-26 at 08 32 23_57e50fa3](https://github.com/user-attachments/assets/ab2305b2-b5fa-4b07-86ac-104645a9e254)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![444](https://github.com/user-attachments/assets/807f99a5-a0c3-4066-8bc8-5557340a2975)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![555](https://github.com/user-attachments/assets/093cafcd-974f-425d-8ca3-b6926c0161a9)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+![WhatsApp Image 2025-04-26 at 08 32 29_0380ddd7](https://github.com/user-attachments/assets/edc411e8-dd79-47a1-8046-2f39802cf4a9)
 
  
-#DNS Enumeration
+# DNS Enumeration
+![WhatsApp Image 2025-04-26 at 08 32 32_0a52729b](https://github.com/user-attachments/assets/d3b49a5c-10db-495f-ad87-7227d7aa5fd0)
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+![WhatsApp Image 2025-04-26 at 08 32 27_e0178582](https://github.com/user-attachments/assets/a3a6783a-2a4c-434f-9d61-a6d74ec427e9)
 
 
 
@@ -67,7 +77,7 @@ Top level domain expansion
 
 
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -80,33 +90,41 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+![WhatsApp Image 2025-04-26 at 08 32 24_ee6e3627](https://github.com/user-attachments/assets/0c9443fd-8e48-4c1d-82fb-7a0eb9d40883)
 
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+![WhatsApp Image 2025-04-26 at 08 32 30_5167fba2](https://github.com/user-attachments/assets/30f116d9-420c-4316-907a-4dce6f888bf9)
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
+![WhatsApp Image 2025-04-26 at 08 32 27_d6d70e41](https://github.com/user-attachments/assets/8e7482f4-aa8e-403f-9a71-a28198629067)
 
 select any username in the first column of the above file and check the same
+![WhatsApp Image 2025-04-26 at 08 32 20_5517619d](https://github.com/user-attachments/assets/417fbd94-ca6c-41fb-9164-3a83703c79d7)
 
 
-#Telnet for smtp enumeration
+# Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
+ ![WhatsApp Image 2025-04-26 at 08 32 30_0612beb1](https://github.com/user-attachments/assets/286d90a2-2429-4125-bce3-3ee50130cd0e)
+ 
+ ## Output
   
- ##Output
-  
-  
+ ![WhatsApp Image 2025-04-26 at 08 32 28_2640596d](https://github.com/user-attachments/assets/66ff873f-f2f1-48be-aa5a-171f7bf1f9f8)
+ 
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
+![WhatsApp Image 2025-04-26 at 08 32 31_97705bf1](https://github.com/user-attachments/assets/b5b70009-e9fd-4863-b8f8-e2b6652aed33)
 
 
 ## OUTPUT:
 
+![WhatsApp Image 2025-04-26 at 08 32 31_cd1bc678](https://github.com/user-attachments/assets/81238996-5f4a-4936-a30b-c3ad85579f64)
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
