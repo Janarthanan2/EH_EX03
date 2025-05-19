@@ -26,40 +26,45 @@ Open terminal and try execute some kali linux commands
 Following Categories of pen test tools are identified:
 Information Gathering.
 
-Google Hacking:
+**Google Hacking:**
 
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
-site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
+**site:** This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
 
-filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
+**filetype:** This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
-![WhatsApp Image 2025-04-26 at 08 32 33_2a71f1fd](https://github.com/user-attachments/assets/8aa569ab-f3eb-4afa-8eb4-a70e72176060)
+
+<img src="https://github.com/user-attachments/assets/8aa569ab-f3eb-4afa-8eb4-a70e72176060" width=50%>
 
 
 
+**intext:** This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
-intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-![WhatsApp Image 2025-04-26 at 08 32 23_fa006d91](https://github.com/user-attachments/assets/f1af0fb8-3b01-4d5f-913b-62b9b45f65a2)
+<img src="https://github.com/user-attachments/assets/f1af0fb8-3b01-4d5f-913b-62b9b45f65a2" width=50%>
 
 
-inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
-![WhatsApp Image 2025-04-26 at 08 32 23_57e50fa3](https://github.com/user-attachments/assets/ab2305b2-b5fa-4b07-86ac-104645a9e254)
+**inurl:** This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
-intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-![444](https://github.com/user-attachments/assets/807f99a5-a0c3-4066-8bc8-5557340a2975)
+<img src="https://github.com/user-attachments/assets/ab2305b2-b5fa-4b07-86ac-104645a9e254" width=50%>
 
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
-![555](https://github.com/user-attachments/assets/093cafcd-974f-425d-8ca3-b6926c0161a9)
+**intitle:** This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
-cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
-![WhatsApp Image 2025-04-26 at 08 32 29_0380ddd7](https://github.com/user-attachments/assets/edc411e8-dd79-47a1-8046-2f39802cf4a9)
+<img src="https://github.com/user-attachments/assets/807f99a5-a0c3-4066-8bc8-5557340a2975" width=50%>
+
+**link:** This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+
+<img src="https://github.com/user-attachments/assets/093cafcd-974f-425d-8ca3-b6926c0161a9">
+
+**cache:** This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
+<img src="https://github.com/user-attachments/assets/edc411e8-dd79-47a1-8046-2f39802cf4a9" width=50%>
 
  
 # DNS Enumeration
-![WhatsApp Image 2025-04-26 at 08 32 32_0a52729b](https://github.com/user-attachments/assets/d3b49a5c-10db-495f-ad87-7227d7aa5fd0)
+<img src="https://github.com/user-attachments/assets/d3b49a5c-10db-495f-ad87-7227d7aa5fd0" width=50%>
 
 
 ## DNS Recon
@@ -68,11 +73,9 @@ Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
+
 ## OUTPUT:
-![WhatsApp Image 2025-04-26 at 08 32 27_e0178582](https://github.com/user-attachments/assets/a3a6783a-2a4c-434f-9d61-a6d74ec427e9)
-
-
-
+<img src="https://github.com/user-attachments/assets/a3a6783a-2a4c-434f-9d61-a6d74ec427e9" width=50%>
 
 
 
@@ -93,7 +96,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 ![WhatsApp Image 2025-04-26 at 08 32 24_ee6e3627](https://github.com/user-attachments/assets/0c9443fd-8e48-4c1d-82fb-7a0eb9d40883)
 
 
-## smtp-user-enum
+## SMTP-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 ![WhatsApp Image 2025-04-26 at 08 32 30_5167fba2](https://github.com/user-attachments/assets/30f116d9-420c-4316-907a-4dce6f888bf9)
 
@@ -116,7 +119,7 @@ and issue appropriate commands
  ![WhatsApp Image 2025-04-26 at 08 32 28_2640596d](https://github.com/user-attachments/assets/66ff873f-f2f1-48be-aa5a-171f7bf1f9f8)
  
 
-## nmap –script smtp-enum-users.nse <hostname>
+## NMAP –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 ![WhatsApp Image 2025-04-26 at 08 32 31_97705bf1](https://github.com/user-attachments/assets/b5b70009-e9fd-4863-b8f8-e2b6652aed33)
