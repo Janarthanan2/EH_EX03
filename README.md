@@ -25,7 +25,7 @@ Open terminal and try execute some kali linux commands
 
 Following Categories of pen test tools are identified:
 Information Gathering.
-
+---
 **Google Hacking:**
 
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
@@ -62,10 +62,12 @@ Following searches for pdf file in the domain yahoo.com
 
 <img src="https://github.com/user-attachments/assets/edc411e8-dd79-47a1-8046-2f39802cf4a9" width=50%>
 
+---
  
 # DNS Enumeration
 <img src="https://github.com/user-attachments/assets/d3b49a5c-10db-495f-ad87-7227d7aa5fd0" width=50%>
 
+---
 
 ## DNS Recon
 provides the ability to perform:
@@ -78,7 +80,7 @@ Top level domain expansion
 <img src="https://github.com/user-attachments/assets/a3a6783a-2a4c-434f-9d61-a6d74ec427e9" width=50%>
 
 
-
+---
 
 ## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
@@ -96,6 +98,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 <img src="https://github.com/user-attachments/assets/0c9443fd-8e48-4c1d-82fb-7a0eb9d40883" width=50%>
 
+---
 
 ## SMTP-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
@@ -106,11 +109,11 @@ In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 <img src="https://github.com/user-attachments/assets/8e7482f4-aa8e-403f-9a71-a28198629067" width=50%>
 
-select any username in the first column of the above file and check the same
+Select any username in the first column of the above file and check the same
 
 <img src="https://github.com/user-attachments/assets/417fbd94-ca6c-41fb-9164-3a83703c79d7" width=50%>
 
-
+---
 # Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
@@ -121,7 +124,7 @@ and issue appropriate commands
   
 <img src="https://github.com/user-attachments/assets/66ff873f-f2f1-48be-aa5a-171f7bf1f9f8" width=50%>
  
-
+---
 ## NMAP –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
@@ -132,6 +135,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 ## OUTPUT:
 
 <img src="https://github.com/user-attachments/assets/81238996-5f4a-4936-a30b-c3ad85579f64" width=50%>
+
+---
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
