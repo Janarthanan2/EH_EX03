@@ -56,7 +56,7 @@ Following searches for pdf file in the domain yahoo.com
 
 **link:** This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
-<img src="https://github.com/user-attachments/assets/093cafcd-974f-425d-8ca3-b6926c0161a9">
+<img src="https://github.com/user-attachments/assets/093cafcd-974f-425d-8ca3-b6926c0161a9" width=50%>
 
 **cache:** This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
