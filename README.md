@@ -93,19 +93,22 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-![WhatsApp Image 2025-04-26 at 08 32 24_ee6e3627](https://github.com/user-attachments/assets/0c9443fd-8e48-4c1d-82fb-7a0eb9d40883)
+
+<img src="https://github.com/user-attachments/assets/0c9443fd-8e48-4c1d-82fb-7a0eb9d40883" width=50%>
 
 
 ## SMTP-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
-![WhatsApp Image 2025-04-26 at 08 32 30_5167fba2](https://github.com/user-attachments/assets/30f116d9-420c-4316-907a-4dce6f888bf9)
+<img src="https://github.com/user-attachments/assets/30f116d9-420c-4316-907a-4dce6f888bf9" width=50%>
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
-![WhatsApp Image 2025-04-26 at 08 32 27_d6d70e41](https://github.com/user-attachments/assets/8e7482f4-aa8e-403f-9a71-a28198629067)
+
+<img src="https://github.com/user-attachments/assets/8e7482f4-aa8e-403f-9a71-a28198629067" width=50%>
 
 select any username in the first column of the above file and check the same
-![WhatsApp Image 2025-04-26 at 08 32 20_5517619d](https://github.com/user-attachments/assets/417fbd94-ca6c-41fb-9164-3a83703c79d7)
+
+<img src="https://github.com/user-attachments/assets/417fbd94-ca6c-41fb-9164-3a83703c79d7" width=50%>
 
 
 # Telnet for smtp enumeration
@@ -116,18 +119,19 @@ and issue appropriate commands
  
  ## Output
   
- ![WhatsApp Image 2025-04-26 at 08 32 28_2640596d](https://github.com/user-attachments/assets/66ff873f-f2f1-48be-aa5a-171f7bf1f9f8)
+<img src="https://github.com/user-attachments/assets/66ff873f-f2f1-48be-aa5a-171f7bf1f9f8" width=50%>
  
 
 ## NMAP –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
-![WhatsApp Image 2025-04-26 at 08 32 31_97705bf1](https://github.com/user-attachments/assets/b5b70009-e9fd-4863-b8f8-e2b6652aed33)
+
+<img src="https://github.com/user-attachments/assets/b5b70009-e9fd-4863-b8f8-e2b6652aed33" width=50%>
 
 
 ## OUTPUT:
 
-![WhatsApp Image 2025-04-26 at 08 32 31_cd1bc678](https://github.com/user-attachments/assets/81238996-5f4a-4936-a30b-c3ad85579f64)
+<img src="https://github.com/user-attachments/assets/81238996-5f4a-4936-a30b-c3ad85579f64" width=50%>
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
